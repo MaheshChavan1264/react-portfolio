@@ -57,8 +57,8 @@ textarea {
 
 /* ----------------------Medai Queries(Medium)-------------------------- */
 
-@media screen and(max-width: 1024px) {
-  .contact__container {
+@media only screen and (max-width: 1024px) {
+  .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
   }
@@ -66,9 +66,8 @@ textarea {
 
 /* ----------------------Medai Queries(Small)-------------------------- */
 
-@media screen and(max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .contact__container {
     width: var(--container-width-sm);
-    gap: 2rem;
   }
 }

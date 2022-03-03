@@ -21,7 +21,7 @@
   --transition: all 400ms ease;
 
   --container-width-lg: 75%;
-  --container-width-mg: 86%;
+  --container-width-md: 86%;
   --container-width-sm: 90%;
 }
 
@@ -38,7 +38,9 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url("../src/assets/bg-texture.png");
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  /* background-image: url("../src/assets/bg-texture.png"); */
+  background-size: cover;
 }
 
 /* ---------------------- General styles ---------------------- */
@@ -114,7 +116,7 @@ img {
 
 /* ----------------------Media Queries(medium)-------------------- */
 
-@media screen and(max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .container {
     width: var(--container-width-md);
   }
@@ -126,7 +128,7 @@ img {
 
 /* ----------------------Media Queries(Small)-------------------- */
 
-@media screen and(max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .container {
     width: var(--container-width-sm);
   }

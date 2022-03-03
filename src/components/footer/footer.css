@@ -4,6 +4,7 @@ footer {
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
+  border-radius: 1.2rem;
 }
 
 footer a {
@@ -49,13 +50,13 @@ footer a {
 
 /* ----------------------Media Queries(Small)-------------------- */
 
-@media screen and(max-width: 600px) {
+@media only screen and (max-width: 600px) {
   .permalinks {
     flex-direction: column;
     gap: 1.6rem;
   }
 
   .footer__socials {
-    margin-bottom: 2.6rem;
+    margin-bottom: 3.6rem;
   }
 }

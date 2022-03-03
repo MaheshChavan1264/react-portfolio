@@ -1,7 +1,7 @@
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  place-items: center;
+  gap: 2.5rem;
 }
 
 .portfolio__item {
@@ -33,19 +33,19 @@
   margin-bottom: 1rem;
 }
 
-/* ----------------------Medai Queries(Medium)-------------------------- */
+/* ----------------------Media Queries(Medium)-------------------------- */
 
-@media screen and(max-width: 1024px) {
+@media only screen and (max-width: 1024px) {
   .portfolio__container {
     grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
+    gap: 1rem;
   }
 }
 
 /* ----------------------Medai Queries(Small)-------------------------- */
 
-@media screen and(max-width: 600px) {
-  .experience__container {
+@media only screen and (max-width: 600px) {
+  .portfolio__container {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
