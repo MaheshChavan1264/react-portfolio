@@ -19,7 +19,7 @@ const data = [
     image: IMG2,
     title: "Portfolio in React",
     github: "https://github.com/MaheshChavan1264/react-portfolio",
-    demo: "demo",
+    demo: "https://react-portfolio-delta-ruby.vercel.app/",
   },
   {
     id: 3,
