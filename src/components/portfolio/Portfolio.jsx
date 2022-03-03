@@ -18,7 +18,7 @@ const data = [
     id: 2,
     image: IMG2,
     title: "Portfolio in React",
-    github: "github",
+    github: "https://github.com/MaheshChavan1264/react-portfolio",
     demo: "demo",
   },
   {
